@@ -4,7 +4,7 @@ repos:
     hooks:
       - id: black
         language_version: python3.7
-        args: [--config=black-conf/pyproject.toml]
+        args: [--config=python-fmt-conf/pyproject.toml]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.4.0
     hooks:
