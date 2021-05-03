@@ -1,1 +1,1 @@
-This repository contains our Python formatter's configuration, which is a mix of [Black](https://github.com/psf/black) and some [pre-commit hooks](https://github.com/pre-commit/pre-commit-hooks) since Black doesn't handle single quotes very well by default.
+This repository contains our Python formatter's configuration, which is a mix of [Black](https://github.com/psf/black), some [pre-commit hooks](https://github.com/pre-commit/pre-commit-hooks) since Black doesn't handle single quotes very well by default and a static type checker[mypy](http://mypy-lang.org/).
