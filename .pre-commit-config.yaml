@@ -14,4 +14,4 @@ repos:
     rev: v0.910
     hooks:
       - id: mypy
-        additional_dependencies: [types-requests]
+        additional_dependencies: [types-requests, types-freezegun, types-paramiko, types-PyYAML, types-pytz, types-boto] 
