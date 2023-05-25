@@ -14,4 +14,8 @@ repos:
     rev: v0.971
     hooks:
       - id: mypy
-        additional_dependencies: [types-requests, types-freezegun, types-paramiko, types-PyYAML, types-pytz, types-boto] 
+        additional_dependencies: [types-requests, types-freezegun, types-paramiko, types-PyYAML, types-pytz, types-boto]
+  - repo: https://github.com/jendrikseipp/vulture
+    rev: v2.7
+    hooks:
+      - id: vulture
