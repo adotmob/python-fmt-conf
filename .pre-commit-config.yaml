@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/ambv/black
-    rev: 24.3.0
+    rev: 24.4.2
     hooks:
       - id: black
         language_version: python3.10
@@ -11,7 +11,7 @@ repos:
       - id: double-quote-string-fixer
       - id: end-of-file-fixer
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.8.0
+    rev: v1.9.0
     hooks:
       - id: mypy
         additional_dependencies: [types-requests, types-freezegun, types-paramiko, types-PyYAML, types-pytz, types-boto]
